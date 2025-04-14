@@ -1,0 +1,81 @@
+h1{
+    text-align: center;    
+    text-decoration: underline;
+    color: white;
+    background-color: black;
+    padding: 50px;
+    margin: 0%;
+
+    
+    
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: black;
+    margin: 0px;
+    padding: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding:10px;
+    display: block;
+    text-align: center;
+    
+}
+
+.navbar a:hover{
+    background-color: grey;
+}
+.navbar li{
+    float: left;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+.alignment{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+
+
+}
+
+.Lineup{
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+    width: 300px;
+    height: 600px;
+    flex: 1;
+    margin-top: 10px;
+    
+   
+}
+.Lineup ul{
+    list-style-type: none;
+}
+
+
+.Welcome{
+    
+    align-items: flex-start ;
+    gap: 10px;
+    padding: 20px;
+    flex: 1;
+    
+}
+
+.lst{
+    text-align: center;
+    background-color: blue;
+    height: 50px;
+    
+}
