@@ -1,0 +1,13 @@
+
+.vid {
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+video {
+    max-width: 100%; /* Ensures the video scales properly */
+    max-height: 100%; /* Prevents overflow */
+    
+}
