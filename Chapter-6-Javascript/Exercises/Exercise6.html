@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petrol calculator</title>
+    <link rel="stylesheet" href="Exercise6.css"
+</head>
+<body>
+    <div class="Calculator">
+        <h1> Petrol Calculator</h1>
+        <label style="font-size: x-large;" for="cost"> Cost Per Liter(USD):</label>        <!--Here we are wrting teh code for the petrol cost per liter-->
+        <input type="number" id="cost" value="1.72" step="0.01" readonly> <!-- the defualt value for the petrol cost per liter which is 1.72-->
+        <!-- here are the inputs for the number of liter/liters purchased-->
+        <label style="font-size: x-large;" for="liters">Liters Purchased:</label>
+        <input type="number" id="liters" value="0">
+
+        <button id="calculate">Calculate Total Cost</button>   <!--This button is made to calculate the total cost-->
+        
+        <p style="font-size: x-large;" id="total-cost">Total Cost: USD 0.00</p>  <!--Displays the total cost-->
+ 
+    
+    </div>
+    <script src="Exercise6.js"></script>
+</body>
+</html>
