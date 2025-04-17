@@ -1,0 +1,23 @@
+.A{
+    border: 5px solid purple;
+    box-shadow: 10px 10px 10px red;
+}
+
+.B{
+    border: 5px solid lightgreen;
+    box-shadow: inset 10px 10px 10px black;
+}
+
+.C{
+    border: 5px solid orange;
+    box-shadow:
+    0 0 0 10px blue,
+    0 0 0 15px red,
+    0 0 0 20px green;
+}
+
+.D{
+    border: 5px solid red;
+    text-shadow: 5px 5px 1px black;
+
+}
